@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    padding-top: .5rem;
+    background-color: #2e2e2e;
+    border-color: #747474 !important;
+    border-top: .1rem solid;
+
+    p {
+        font-family: 'Lato' sans-serif;
+        color: white;
+        font-weight: 700;
+        margin-right: 1rem;
+    }
+    
+    .github {
+        color: white;
+        margin-left: .5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    
+    .linkedin {
+        color: white;
+        margin-left: .5rem;
+        height: 1.55rem;
+        width: 1.55rem;
+    }
+    
+    .networks {
+        align-self: center;
+        padding-bottom: .15rem;
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    padding: 0 0 3rem;
+    width: 100%;
+}
+
+.nav-div {
+    background-color: #2e2e2e;
+    height: 3.5rem;
+    border-color: #747474 !important;
+    border-bottom: .1rem solid;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-top: .75rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+}
+
+.nav-item:hover {
+    color: #4ea8de;
+    text-decoration: none;
+    border-bottom: .25rem solid #4ea8de;
+}
+
+.active-nav-item {
+    color: #4ea8de;
+}
