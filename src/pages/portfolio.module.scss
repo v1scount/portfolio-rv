@@ -1,4 +1,7 @@
 .port-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h1 {
         font-family: 'Roboto', sans-serif;
         color: #4ea8de;
@@ -76,7 +79,6 @@
         font-family: 'Roboto', sans-serif;
         display: inline-block;
         font-size: 24px;
-        // font-weight: 800;
         font-weight: bold;
         letter-spacing: .75px;
         box-shadow: 5px 5px 0px #418cbb;

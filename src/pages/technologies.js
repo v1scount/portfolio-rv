@@ -11,7 +11,7 @@ const Technologies = () => {
                     TECNOLOGIAS
                 </h1>
                 <p>
-                    Estas son las tecnologías que manejo:
+                    Este es mi skillset de tecnologías:
                 </p>
             </div>
             <div className={technologiesStyles.techDiv} >
