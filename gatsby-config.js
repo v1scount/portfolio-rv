@@ -11,6 +11,7 @@ module.exports = {
     // PRESERVE_FILE_DOWNLOAD_CACHE: true
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,

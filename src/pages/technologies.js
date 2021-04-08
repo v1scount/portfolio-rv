@@ -2,10 +2,13 @@ import React from 'react';
 import Layout from '../components/layout';
 import * as technologiesStyles from './technologies.module.scss';
 import { ReactJs, Html5, Redux, Express, NodeDotJs, CssThree, Sass, Javascript, Postgresql, Mongodb } from '@icons-pack/react-simple-icons';
+import Head from '../components/head';
+
 
 const Technologies = () => {
     return (
         <Layout>
+            <Head />
             <div className={technologiesStyles.techHead} >
                 <h1>
                     TECNOLOGIAS

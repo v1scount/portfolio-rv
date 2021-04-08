@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import * as portfolioStyles from './portfolio.module.scss';
+import Head from '../components/head';
 
 const PortfolioPage = () => {
     return (
         <Layout>
+            <Head />
             <div className={portfolioStyles.portHead} >
                 <h1>
                     PORTFOLIO

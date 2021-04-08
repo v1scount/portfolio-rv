@@ -3,6 +3,8 @@ import axios from "axios";
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import * as contactStyles from './contact.module.scss';
+import Head from '../components/head';
+
 
 const ContactPage = () => {
 
@@ -39,6 +41,7 @@ const ContactPage = () => {
 
     return (
         <Layout>
+          <Head />
             <div className={contactStyles.contactHead} >
                 <h1>CONTACTO</h1>
                 <p>Si lo que vio te intereso, no dudes en contactarme con este formulario</p>

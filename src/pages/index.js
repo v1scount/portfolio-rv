@@ -1,10 +1,12 @@
 import React from 'react';
 import Layout from '../components/layout';
 import * as indexStyles from './index.module.scss';
+import Head from '../components/head';
 
 const IndexPage = () => {
   return (
     <Layout>
+      <Head />
       <h1 className={indexStyles.headers}>SOBRE MI</h1>
       <div className={indexStyles.personalDescription} >
         <a href="https://ibb.co/FgY9ds7" /><img src="https://i.ibb.co/FgY9ds7/20210309-194214-2-01.jpg" alt="20210309-194214-2-01" className={indexStyles.profilePic} ></img>
