@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1000px;
+    padding-top: 1.5rem;
 }
 
 .tech-head {
@@ -37,11 +38,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 10rem;
-    height: 9rem;
+    height: 10rem;
     padding-top: 1.5rem;
     transition: transform .2s;
-    margin-top: 1.25rem;
 
     p {
         padding-top: 1rem;
