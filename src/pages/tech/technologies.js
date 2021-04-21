@@ -1,13 +1,14 @@
 import React from 'react';
-import Layout from '../components/layout';
+import Layout from '../../components/layout';
 import * as technologiesStyles from './technologies.module.scss';
 import { ReactJs, Html5, Redux, Express, NodeDotJs, CssThree, Sass, Javascript, Postgresql, Mongodb } from '@icons-pack/react-simple-icons';
-import Head from '../components/head';
+import Head from '../../components/head';
 
 
 const Technologies = () => {
     return (
-        <Layout>
+        // <Layout>
+        <div className={technologiesStyles.tech}>
             <Head />
             <div className={technologiesStyles.techHead} >
                 <h1>
@@ -59,7 +60,8 @@ const Technologies = () => {
                     <p>MongoDB</p>
                 </div>
             </div>
-        </Layout>
+        </div>
+        // </Layout>
     )
 }
 
