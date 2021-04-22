@@ -35,11 +35,13 @@
         font-size: 24px;
         font-weight: bold;
         letter-spacing: .75px;
-        box-shadow: 5px 5px 0px #418cbb;
+        box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.5);
+
     }
 
     .intro-btn:hover {
         background-color: #418cbb;
-        box-shadow: 5px 5px 0px #2f6688;
+        box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.5);
+
     }
 }
