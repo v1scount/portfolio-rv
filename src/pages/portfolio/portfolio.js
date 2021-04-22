@@ -38,7 +38,7 @@ const PortfolioPage = () => {
                         <img src="https://i.ibb.co/f0qBqCn/Captura-de-pantalla-de-2021-04-07-19-45-38-500x250.png" alt="Captura-de-pantalla-de-2021-04-07-19-45-38-500x250" border="0" />
                         <h3>ECOMMERCE</h3>
                         <p>
-                            Tienda online de tickets a concientos en streaming. Desarrollada con Javascript, React-Redux, PostgreSQL-Sequalize-Express, Passport.
+                            Tienda online de tickets a conciertos en streaming. Desarrollada con Javascript, React-Redux, PostgreSQL-Sequalize-Express, Passport.
                         </p>
                         <div className={portfolioStyles.buttonDiv}>
                             <Link to='https://ecommerce-tickets.vercel.app/' target='_blank' >
@@ -71,7 +71,7 @@ const PortfolioPage = () => {
                         <img src="https://i.ibb.co/V9ydgQn/Captura-de-pantalla-de-2021-04-08-01-20-18-500x250.png" alt="Captura-de-pantalla-de-2021-04-08-01-20-18-500x250" border="0" />
                         <h3>APP DE CLIMA</h3>
                         <p>
-                            Simple app para recoger el clima de distintas ciudades. Desarollada con React-Redux, utiliza los datos de Open Wheather API
+                            Simple app para recoger el clima de distintas ciudades. Desarrollada con React-Redux, utiliza los datos de Open Wheather API
                         </p>
                         <div className={portfolioStyles.buttonDiv} >
                             <Link to='https://weather-app-henry.herokuapp.com/' target='_blank' >
