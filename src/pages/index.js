@@ -11,8 +11,8 @@ import Scroll from '../components/scroll';
 const IndexPage = () => {
   return (
     <Layout>
-      <Scroll showBelow={250} />
       <Head />
+      <Scroll showBelow={250} />
       <IntroPage />
       <section id='me'>
         <MePage />

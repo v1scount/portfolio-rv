@@ -13,22 +13,16 @@
     h1 {
         font-family: 'Roboto', sans-serif;
         color: #4ea8de;
+        margin-bottom: 2.5rem;
     }
     
-    h1::after {
-        content: "";
-        display: block;
-        height: 0.2em;
-        width: 1.5em;
-        background-color: #4ea8de;
-        margin: 0.25em auto 0.5em;
-    }
 
     p {
         color: white;
         font-family: 'Roboto', sans-serif;
         letter-spacing: .5px;
         font-size: larger;
+        margin-bottom: 4rem;
     }
 }
 
@@ -64,14 +58,6 @@
         letter-spacing: .75px;
     }
     
-    h3::after {
-        content: "";
-        display: block;
-        height: 0.2em;
-        width: 1.5em;
-        background-color: #4ea8de;
-        margin: 0.25em 0 0.5em;
-    }
 }
 
 .button-div {

@@ -15,16 +15,9 @@ label {
         color:#418cbb;
         font-family: 'Roboto', sans-serif;
         letter-spacing: .75px;
+        margin-bottom: 3rem;
     }
 
-    h1::after {
-        content: "";
-        display: block;
-        height: 0.2em;
-        width: 1.5em;
-        background-color: #4ea8de;
-        margin: 0.25em auto 0.5em;
-    }
 
     p {
         color: white;

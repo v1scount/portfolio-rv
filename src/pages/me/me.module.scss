@@ -4,6 +4,7 @@ body {
 }
 
 .me {
+    position: relative;
     margin-top: 4rem;
     margin-bottom: 5rem;
     display: flex;
@@ -17,16 +18,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #4ea8de;
 }
-
-.headers::after {
-    content: "";
-    display: block;
-    height: 0.2em;
-    width: 1.5em;
-    background-color: #4ea8de;
-    margin: 0.25em auto 0.5em;
-}
-
 
 .education {
     

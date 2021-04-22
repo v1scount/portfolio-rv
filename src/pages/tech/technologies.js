@@ -1,7 +1,8 @@
 import React from 'react';
 import * as technologiesStyles from './technologies.module.scss';
-import { ReactJs, Html5, Redux, Express, NodeDotJs, CssThree, Sass, Javascript, Postgresql, Mongodb } from '@icons-pack/react-simple-icons';
+import { ReactJs, Html5, Redux, Express, NodeDotJs, CssThree, Sass, Javascript, Postgresql, Mongodb, Gatsby } from '@icons-pack/react-simple-icons';
 import Head from '../../components/head';
+import { Slide } from "react-awesome-reveal";
 
 
 const Technologies = () => {
@@ -10,9 +11,14 @@ const Technologies = () => {
         <div className={technologiesStyles.tech}>
             <Head />
             <div className={technologiesStyles.techHead} >
-                <h1>
-                    TECNOLOGIAS
-                </h1>
+                <Slide 
+                    triggerOnce
+                    duration='1500'
+                >
+                    <h1>
+                        TECNOLOGIAS
+                    </h1>
+                </Slide>
                 <p>
                     Este es mi skillset de tecnologías:
                 </p>
@@ -57,6 +63,10 @@ const Technologies = () => {
                 <div className={technologiesStyles.iconDiv}>
                     <Mongodb size={62} className={technologiesStyles.icon}/>
                     <p>MongoDB</p>
+                </div>
+                <div className={technologiesStyles.iconDiv}>
+                    <Gatsby size={62} className={technologiesStyles.icon}/>
+                    <p>Gatsby</p>
                 </div>
             </div>
         </div>

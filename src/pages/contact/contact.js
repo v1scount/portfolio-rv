@@ -2,6 +2,7 @@ import React, { useState }  from "react"
 import axios from "axios";
 import * as contactStyles from './contact.module.scss';
 import Head from '../../components/head';
+import { Slide } from "react-awesome-reveal";
 
 
 const ContactPage = () => {
@@ -41,8 +42,13 @@ const ContactPage = () => {
       <div className={contactStyles.contact}>
         <Head />
           <div className={contactStyles.contactHead} >
+            <Slide 
+              triggerOnce
+              duration='1500'
+            >
               <h1>CONTACTO</h1>
-              <p>¡Si lo que viste te intereso, no dudes en contactarme:</p>
+            </Slide>
+              <p>¡Si lo que viste te intereso, no dudes en contactarme!</p>
           </div>
           <div>
               <form onSubmit={handleOnSubmit} className={contactStyles.formDiv} >
