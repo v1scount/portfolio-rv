@@ -2,7 +2,7 @@ import React, { useState }  from "react"
 import axios from "axios";
 import * as contactStyles from './contact.module.scss';
 import Head from '../../components/head';
-import { Slide } from "react-awesome-reveal";
+import { Slide, Fade } from "react-awesome-reveal";
 
 
 const ContactPage = () => {
@@ -48,9 +48,17 @@ const ContactPage = () => {
             >
               <h1>CONTACTO</h1>
             </Slide>
+            <Fade
+              triggerOnce
+            >
               <p>¡Si lo que viste te intereso, no dudes en contactarme!</p>
+            </Fade>
           </div>
           <div>
+            <Fade
+              triggerOnce
+              cascade
+            >
               <form onSubmit={handleOnSubmit} className={contactStyles.formDiv} >
                   <div className={contactStyles.emailDiv}>
                     <label for='name'>Nombre</label>
@@ -66,6 +74,7 @@ const ContactPage = () => {
                   </button>
                   <p>Puedes acceder a mis redes desde los iconos en la parte inferior izquierda.</p>
               </form>
+            </Fade>
           </div>
       </div>
     )

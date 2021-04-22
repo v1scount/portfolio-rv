@@ -45,3 +45,27 @@
 
     }
 }
+
+@media only screen and (max-width: 450px) {
+
+    .container {
+
+        img {
+            height: 350px;
+            width: 350px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+
+    .container {
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+    
+}

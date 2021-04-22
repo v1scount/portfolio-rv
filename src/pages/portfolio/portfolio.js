@@ -18,9 +18,13 @@ const PortfolioPage = () => {
                         PORTFOLIO
                     </h1>
                 </Slide>
-                <p>
-                    Acá podrás ver mis trabajos:
-                </p>
+                <Fade
+                    triggerOnce
+                >
+                    <p>
+                        Acá podrás ver mis trabajos:
+                    </p>    
+                </Fade>
             </div>
             <Fade
                 cascade='true'
