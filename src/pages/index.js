@@ -5,11 +5,15 @@ import Technologies from './tech/technologies';
 import PortfolioPage from './portfolio/portfolio';
 import ContactPage from './contact/contact';
 import MePage from './me/me';
+import IntroPage from './intro';
+import Scroll from '../components/scroll';
 
 const IndexPage = () => {
   return (
     <Layout>
+      <Scroll showBelow={250} />
       <Head />
+      <IntroPage />
       <section id='me'>
         <MePage />
       </section>

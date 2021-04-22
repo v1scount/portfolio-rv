@@ -11,6 +11,17 @@ module.exports = {
     // PRESERVE_FILE_DOWNLOAD_CACHE: true
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: [],
+        height: 3,
+        prependToBody: false,
+        color: `#4ea8de`,
+        footerHeight: 500,
+        headerHeight: 0,
+      }
+    },
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     {

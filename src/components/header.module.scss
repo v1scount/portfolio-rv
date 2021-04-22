@@ -23,7 +23,7 @@
 .nav-item {
     color: white;
     font-size: 1.3rem;
-    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .nav-item:hover {
@@ -34,4 +34,36 @@
 
 .active-nav-item {
     color: #4ea8de;
+}
+
+@media only screen and (max-width: 850px) {
+
+        .nav-item {
+            margin-right: 1rem;
+            font-size: 1rem;
+        }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .nav-item {
+        margin-right: .5rem;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+
+    .nav-item {
+        margin-right: .5rem;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+
+    .nav-item {
+        margin-right: .5rem;
+        font-size: .7rem;
+    }
 }

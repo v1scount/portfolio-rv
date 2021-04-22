@@ -1,7 +1,5 @@
 import React, { useState }  from "react"
 import axios from "axios";
-import { Link } from 'gatsby';
-import Layout from '../../components/layout';
 import * as contactStyles from './contact.module.scss';
 import Head from '../../components/head';
 
@@ -49,14 +47,10 @@ const ContactPage = () => {
           <div>
               <form onSubmit={handleOnSubmit} className={contactStyles.formDiv} >
                   <div className={contactStyles.emailDiv}>
-                      <div className={contactStyles.placeholderDiv} >
-                          <label for='name'>Nombre</label>
-                          <input type='name' name='name' placeholder='Nombre' required />
-                      </div>
-                      <div>
-                          <label for='name'>Email</label>
-                          <input type='email' name='email' placeholder='Email' required/>
-                      </div>
+                    <label for='name'>Nombre</label>
+                    <input type='name' name='name' placeholder='Nombre' required  className={contactStyles.inn} />
+                    <label for='name'>Email</label>
+                    <input type='email' name='email' placeholder='Email' required className={contactStyles.inn} />
                   </div>
                   <div className={contactStyles.messageDiv}>
                       <textarea placeholder='Tu mensaje:' required/>
